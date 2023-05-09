@@ -62,4 +62,4 @@ pytest
 
 | Metodo |     Ruta      |                            Descripción                             |                           Parametros                           |             Ejemplo             |
 |--------|:-------------:|:------------------------------------------------------------------:|:--------------------------------------------------------------:|:-------------------------------:|
-| GET    | /fomento_unit | Consultar el valor de la unidad de fomento en una fecha especifica | date (Por defecto: Hoy), formato "dia/mes/año" e.g. 25-12-2023 | /promotion_unit?date=25-12-2022 |
+| GET    | /fomento_unit | Consultar el valor de la unidad de fomento en una fecha especifica | date (Por defecto: Hoy), formato "dia-mes-año" e.g. 25-12-2023 | /promotion_unit?date=25-12-2022 |
